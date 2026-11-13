@@ -1,0 +1,16 @@
+{
+  "name": "pulselink",
+  "version": "1.0.0",
+  "description": "PulseLink Android wrapper",
+  "private": true,
+  "scripts": {
+    "cap:sync": "npx cap sync android"
+  },
+  "dependencies": {
+    "@capacitor/android": "^6.2.2",
+    "@capacitor/core": "^6.2.2"
+  },
+  "devDependencies": {
+    "@capacitor/cli": "^6.2.2"
+  }
+}
