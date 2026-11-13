@@ -1,0 +1,63 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0, viewport-fit=cover" />
+  <title>PulseLink</title>
+  <style>
+    * {
+      box-sizing: border-box;
+      margin: 0;
+      padding: 0;
+    }
+    body {
+      font-family: -apple-system, BlinkMacSystemFont, "Segoe UI", Roboto, sans-serif;
+      background-color: #0f172a;
+      color: #f8fafc;
+      min-height: 100vh;
+      display: flex;
+      align-items: center;
+      justify-content: center;
+      padding: 24px;
+      text-align: center;
+    }
+    .card {
+      max-width: 360px;
+      width: 100%;
+      background: #1e293b;
+      border-radius: 16px;
+      padding: 28px 20px;
+      box-shadow: 0 10px 25px rgba(0, 0, 0, 0.35);
+    }
+    h1 {
+      font-size: 1.4rem;
+      margin-bottom: 10px;
+    }
+    p {
+      font-size: 0.95rem;
+      color: #cbd5e1;
+      line-height: 1.5;
+      margin-bottom: 20px;
+    }
+    button {
+      background: #3b82f6;
+      color: #ffffff;
+      border: none;
+      border-radius: 10px;
+      padding: 12px 22px;
+      font-size: 1rem;
+      font-weight: 600;
+      cursor: pointer;
+    }
+  </style>
+</head>
+<body>
+  <div class="card">
+    <h1>PulseLink</h1>
+    <p>Unable to connect to the PulseLink server. Please check your internet connection and try again.</p>
+    <button onclick="window.location.href='https://unrivaled-taffy-c818ea.netlify.app/'">
+      Retry Connection
+    </button>
+  </div>
+</body>
+</html>
